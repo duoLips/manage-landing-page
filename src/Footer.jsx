@@ -1,5 +1,4 @@
 import React from 'react'
-import Button from './Button'
 import icon0 from './assets/icon-facebook.svg'
 import icon1 from './assets/icon-instagram.svg'
 import icon2 from './assets/icon-pinterest.svg'
@@ -24,25 +23,25 @@ const Footer = () => {
                     </form>
                     <div className='footer--media'>
                         <ul>
-                            <li><a href="#"><img src={icon0} alt="icon" /></a></li>
-                            <li><a href="#"><img src={icon1} alt="icon" /></a></li>
-                            <li><a href="#"><img src={icon2} alt="icon" /></a></li>
-                            <li><a href="#"><img src={icon3} alt="icon" /></a></li>
-                            <li><a href="#"><img src={icon4} alt="icon" /></a></li>
+                            <li><a target="_blank" rel="noreferrer" href="https://www.facebook.com/"><img src={icon0} alt="icon" /></a></li>
+                            <li><a target="_blank" rel="noreferrer" href="https://www.instagram.com/"><img src={icon1} alt="icon" /></a></li>
+                            <li><a target="_blank" rel="noreferrer" href="https://ru.pinterest.com/"><img src={icon2} alt="icon" /></a></li>
+                            <li><a target="_blank" rel="noreferrer" href="https://twitter.com/"><img src={icon3} alt="icon" /></a></li>
+                            <li><a target="_blank" rel="noreferrer" href="https://www.youtube.com/"><img src={icon4} alt="icon" /></a></li>
                         </ul>
                         <span className='header--logo'>manage</span>
                     </div>
                     <div className='footer--links'>
                         <ul>
-                            <li><a href="#">Home</a></li>
-                            <li><a href="#">Pricing</a></li>
-                            <li><a href="#">Products</a></li>
-                            <li><a href="#">About Us</a></li>
+                            <li><a href="#home">Home</a></li>
+                            <li><a href="#home">Pricing</a></li>
+                            <li><a href="#home">Products</a></li>
+                            <li><a href="#home">About Us</a></li>
                         </ul>
                         <ul>
-                            <li><a href="#">Careers</a></li>
-                            <li><a href="#">Community</a></li>
-                            <li><a href="#">Privacy Policy</a></li>
+                            <li><a href="#home">Careers</a></li>
+                            <li><a href="#home">Community</a></li>
+                            <li><a href="#home">Privacy Policy</a></li>
                         </ul>
                     </div>
                 </div>

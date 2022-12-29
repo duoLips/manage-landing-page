@@ -18,11 +18,11 @@ const Header = () => {
           <span className='header--logo'>manage</span>
           <nav ref={menuRef} className={`navbar ${isShown === true ? 'navbar_show' : ''}`}>
             <ul className='navbar--list'>
-              <li className='navbar--item'><a href="#">Pricing</a></li>
-              <li className='navbar--item'><a href="#">Product</a></li>
-              <li className='navbar--item'><a href="#">About Us</a></li>
-              <li className='navbar--item'><a href="#">Careers</a></li>
-              <li className='navbar--item'><a href="#">Community</a></li>
+              <li className='navbar--item'><a href="#home">Pricing</a></li>
+              <li className='navbar--item'><a href="#home">Product</a></li>
+              <li className='navbar--item'><a href="#home">About Us</a></li>
+              <li className='navbar--item'><a href="#home">Careers</a></li>
+              <li className='navbar--item'><a href="#home">Community</a></li>
             </ul>
           </nav>
           <Button />

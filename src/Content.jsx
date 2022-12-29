@@ -2,12 +2,12 @@ import React from 'react'
 import image from './assets/illustration-intro.svg'
 import Button from './Button'
 import SliderCarousel from './SliderCarousel'
-import sliderData from './sliderData.json'
+
 const Content = () => {
     // console.log(sliderData.length)
     return (
         <div className='content'>
-            <section className='section section--build'>
+            <section id='home' className='section section--build'>
                 <div className='section--image' >
                     <img src={image} alt="" />
                 </div>
