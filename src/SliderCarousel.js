@@ -27,7 +27,7 @@ const SliderCarousel = (props) => {
     content.push(<>
       <div className="slider--body">
         <div className="slider--image">
-          <img src={images[i]} />
+          <img src={images[i]} alt="user_avatar"/>
         </div>
         <div className="slider--content">
           <h4 className="slider--title">{items[i].name}</h4>
